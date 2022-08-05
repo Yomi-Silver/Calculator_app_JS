@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator App</title>
+</head>
+    <h2>Calculator App</h2>
+<body>
+    <main>
+    <div class="container">
+        <br>
+        <div id="output">
+            <div class="results">
+                <input type="text" id="inputScreen" placeholder="0">
+            </div>
+
+
+        <div class="buttons">
+    <button id="action" onclick="clearAll()">AC</button>
+    <button id="action" onclick="del()">DEL</button>
+    <button id="action" >?</button>
+    <button id="action" onclick="action('%')">%</button>
+    <button id="action" onclick="action('/')">&divide;</button>
+    <button onclick="action(7)">7</button>
+    <button onclick="action(8)">8</button>
+    <button onclick="action(9)">9</button>
+    <button id="action" onclick="action('*')">&times;</button>
+    <button  onclick="action(4)">4</button>
+    <button onclick="action(5)">5</button>
+    <button  onclick="action(6)">6</button>
+    <button  id="action" onclick="action('-')">&minus;</button>
+    <button  onclick="action(1)">1</button>
+    <button   onclick="action(2)">2</button>
+    <button   onclick="action(3)">3</button>
+
+    <button  id="action" onclick="action('+')">&plus;</button>
+    <button id="action" class="dot"onclick="action('.')">.</button>
+    <button  onclick="action(0)">0</button>
+    <button id="action" onclick="equals('=')">=</button>
+        </div>
+    </div>
+</div>
+</main>
+<footer>Built by <span>Fasan Michael   </span><a href="https://github.com/yomi-silver">Github</a> </footer>
+<script src="calculator.js"></script>
+</body>
+
+
+
+
+
+<!-- 
+<div class="calculator">
+    <div class="results">
+        <div class="history">
+            <p id="history-value"></p>
+        </div>
+        <div class="output">
+            <p id="output-value"></p>
+        </div>
+        <div class="buttons keyboard">
+                <button id="action" class="clear-all">AC</button>
+                <button id="action" class="delete">C</button>
+                <button id="action" >?</button>
+                <button id="action">%</button>
+                <button id="action">&divide;</button>
+                <button id="7">7</button>
+                <button  id="8">8</button>
+                <button  id="9">9</button>
+                <button id="action">&times;</button>
+                <button  id="4">4</button>
+                <button  id="5">5</button>
+                <button  id="6">6</button>
+                <button id="action">&minus;</button>
+                <button  id="1">1</button>
+                <button  id="2">2</button>
+                <button  id="3">3</button>
+
+                <button  id="action">&plus;</button>
+                <button id="action" class="dot">.</button>
+                <button  id="0">0</button>
+                <button id="action">=</button>
+        </div>
+    </div>
+</div> -->
+</html>

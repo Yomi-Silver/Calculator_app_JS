@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(206, 206, 236);
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto ;
+    width: 100vh;
+    height: 100vh;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace; 
+}
+
+.container{
+    background-color: #000;
+    margin: 2em auto;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    width: 380px;
+    height: 550px;
+    /* border: 1px solid black; */
+    border-radius: 18px;
+    padding: 20px;
+}
+
+.results input{
+    height: 60px;
+    width: 90%;
+    border-radius:8px;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding: 10px;
+    outline: none;
+    border: none;
+    box-shadow: inset 2px 4px 6px grey;
+    transform: translate x( -50% -50%);
+    transition: 0.2s ease-in-out;
+    color: rgb(54, 45, 45);
+}
+
+.inputBox{
+background-color: #fff;
+height: 60px;
+border-radius: 10px;
+}
+
+
+
+
+
+
+
+.buttons{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+width: 100%;
+padding: 2px;
+/* margin: 2px; */
+margin-top: 20px;
+/* cursor: pointer; */
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid black ;
+    margin: 2px;
+    border-radius: 40%;
+    height: 70px;
+    width: 90%;
+    margin: 4px;
+    /* margin-top: 30px; */
+    box-shadow: 2px 0px 2px rebeccapurple;
+    background-color: rgba(128, 128, 128, 0.6);
+    border: none;
+    box-shadow: 2px 4px 3px rgb(30, 45, 49);
+    color: #fff ;
+
+}
+
+
+#action{
+    background-color: orangered;
+}
+.dot{
+    font-weight: 900;
+}
+
+.input{
+    margin-top: 15px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+    color: rebeccapurple;
+
+}
+
+footer span{
+    font-weight: bold;
+    color: orangered;
+}
+
+footer a{
+    text-decoration: none;
+    color: rebeccapurple;
+}
